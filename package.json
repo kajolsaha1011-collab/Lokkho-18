@@ -1,0 +1,21 @@
+{
+  "name": "lokkho",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lokkho (\u09b2\u0995\u09cd\u09b7\u09cd\u09af) \u2014 Goal, Focus & Daily Progress app",
+  "scripts": {
+    "assets": "capacitor-assets generate --android --assetPath assets",
+    "sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/filesystem": "^6.0.1",
+    "@capacitor/share": "^6.0.2",
+    "@capacitor/local-notifications": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.1.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "appId": "com.abhi.lokkho",
+  "appName": "Lokkho",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_alarm",
+      "iconColor": "#D8B25E",
+      "sound": "alarm.wav"
+    }
+  }
+}
